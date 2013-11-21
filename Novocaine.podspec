@@ -7,5 +7,5 @@ Pod::Spec.new do |s|
   s.author       =  { 'Ari Lerner' => 'arilerner@mac.com', 'Alex Wiltschko' => '@awiltsch' }
   s.source       =  { :git => 'git@github.com:songsterr/novocaine.git'}
   s.source_files =  'Novocaine'
-  s.frameworks   =  'AudioToolbox', 'Accelerate'
+  s.frameworks   =  'AudioToolbox', 'Accelerate', 'AVFoundation'
 end
